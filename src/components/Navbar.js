@@ -37,8 +37,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-        </Navbar.Brand>
+        <Navbar.Brand href="/" className="d-flex"></Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -82,14 +81,13 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/resume"
+                href="https://drive.google.com/file/d/1ceJOj7wMHiG6oi1YNrlxLofGrU6gJBvj/view"
+                target="_blank" // This opens the link in a new tab
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
 
             <Nav.Item className="fork-btn">
               <Button

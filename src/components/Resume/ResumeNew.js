@@ -17,7 +17,7 @@ function ResumeNew() {
     "https://drive.google.com/file/d/1ceJOj7wMHiG6oi1YNrlxLofGrU6gJBvj/view?usp=sharing";
 
   useEffect(() => {
-    window.location.href = resumeLink;
+     window.open(resumeLink, "_blank");
   }, []);
 
   return null; // You can return null or an empty component since we don't need to render anything
