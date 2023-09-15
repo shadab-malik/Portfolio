@@ -9,12 +9,12 @@ import {
   DiGit,
   DiHtml5,
   DiCss3Full,
-  
+  DiJava,
 } from "react-icons/di";
 import {
+  SiVisualstudiocode,
+  SiPostman,
   SiFirebase,
-  SiNextdotjs,
-  
 } from "react-icons/si";
 
 function Techstack() {
@@ -22,6 +22,9 @@ function Techstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -42,11 +45,17 @@ function Techstack() {
         <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        < DiCss3Full/>
+        <DiCss3Full />
       </Col>
-
-      
-
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+      </Col>
     </Row>
   );
 }
