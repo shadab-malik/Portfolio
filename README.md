@@ -2,9 +2,6 @@
   Portfolio Website<br/>
   <a href="https://portfolio-shadab-malik.vercel.app/" target="_blank">https://portfolio-shadab-malik.vercel.app/</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src=".//src/Assets/readme.png" />
-</div>
 
 <br/>
 
